@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>frotz</Name>
+        <Packager>
+            <Name>Jon West</Name>
+            <Email>radicalraccoon@cryptolab.net</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>games.emulator</PartOf>
+        <Summary xml:lang="en">Z-Machine interpreter for playing interactive fiction games</Summary>
+        <Description xml:lang="en">Z-Machine interpreter for playing interactive fiction games.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>frotz</Name>
+        <Summary xml:lang="en">Z-Machine interpreter for playing interactive fiction games</Summary>
+        <Description xml:lang="en">Z-Machine interpreter for playing interactive fiction games.
+</Description>
+        <PartOf>games.emulator</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/man/man6/frotz.6</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-03</Date>
+            <Version>2.44</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Jon West</Name>
+            <Email>radicalraccoon@cryptolab.net</Email>
+        </Update>
+    </History>
+</PISI>

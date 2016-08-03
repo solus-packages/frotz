@@ -1,0 +1,25 @@
+name       : frotz
+version    : 2.44
+release    : 1
+source     :
+    - http://www.ifarchive.org/if-archive/infocom/interpreters/frotz/frotz-2.44.tar.gz : 73ec20f034d2e91578c387cff3af249d52b8833e4271eb1053f6d335722fe3ec
+license    : GPL-2.0
+component  : games.emulator
+summary    : Z-Machine interpreter for playing interactive fiction games
+description: |
+    Z-Machine interpreter for playing interactive fiction games.
+builddeps  :
+    - pkgconfig(ncursesw)
+rundeps    :
+    - ncurses
+setup      : |
+    sed '/^PREFIX/ s:/usr/local:$(installdir)/usr:
+         /^CONFIG_DIR = $(PREFIX)/ s/^/#/
+         /^CONFIG_DIR/ s:/usr/local::
+         /^CURSES/ s/-lcurses/-lncurses/
+         /^#CURSES_DEF/ s/^#//' \
+         -i Makefile
+build      : |
+    %make
+install    : |
+    %make_install
