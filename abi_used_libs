@@ -1,2 +1,7 @@
+libao.so.4
 libc.so.6
+libmodplug.so.1
 libncursesw.so.5
+libpthread.so.0
+libsamplerate.so.0
+libsndfile.so.1
