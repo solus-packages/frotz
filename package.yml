@@ -1,6 +1,6 @@
 name       : frotz
 version    : '2.51'
-release    : 2
+release    : 3
 source     :
     - https://gitlab.com/DavidGriffith/frotz/-/archive/2.51/frotz-2.51.tar.bz2 : 7e488140791259a1a8c9e16a0c467ca69b694b918c28ffe3d83c654bcb253cca
 homepage   : https://davidgriffith.gitlab.io/frotz/

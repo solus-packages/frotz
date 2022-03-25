@@ -3,8 +3,8 @@
         <Name>frotz</Name>
         <Homepage>https://davidgriffith.gitlab.io/frotz/</Homepage>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>games.emulator</PartOf>
@@ -25,12 +25,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2020-03-15</Date>
+        <Update release="3">
+            <Date>2022-03-25</Date>
             <Version>2.51</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
